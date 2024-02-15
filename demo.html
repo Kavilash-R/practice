@@ -4,29 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        div{
-            text-align: center;
-        }
-
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div>
-    <h1>Random Number</h1>
-    <input type="number" name="number" id="one" required>
-    <button onclick="change()">Generate</button>
-</div>
-<script>
-    var num=document.getElementById("one")
-    var num1= Math.ceil(Math.random()*10)
-    
-    function change(){
-        
-        console.log(num1)
+        <h1>Random Number </h1><br><br>
+        <h1 id="myh1"></h1><br><br>
+        <button id="no1" onclick="random()">Generate</button>
 
-    }
-</script>
 
+    </div>
+
+
+
+   
+
+<script src="practice.js"></script>
 </body>
 </html>

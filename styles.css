@@ -1,1 +1,9 @@
-css file
+div {
+    text-align: center;
+}
+#myh1{
+    background-color: gray;
+    color: white;
+    display: inline;
+    justify-content: center;
+}
