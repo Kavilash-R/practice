@@ -1,3 +1,8 @@
-for(i=0;i<=10;i++){
-    console.log(i)
-}
+  var num=document.getElementById("one")
+        var num1= Math.ceil(Math.random()*10)
+        
+        function change(){
+            
+            console.log(num1);
+    
+        }
