@@ -6,3 +6,4 @@
             console.log(num1);
     
         }
+var x=10;
