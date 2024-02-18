@@ -6,4 +6,34 @@
             console.log(num1);
     
         }
-var x=10;
+var x=10;class food{
+    constructor(rice){
+        this.rice=rice;
+    }
+    
+}
+class friedRice extends food{
+    constructor(meat, oil, rice){
+        super(rice);
+        this.meat = meat;
+        this.oil=oil;   
+        
+    }
+
+}
+class briyani extends food{
+    constructor(meat, oil, rice){
+        super(rice);
+        this.meat = meat;
+        this.oil=oil;
+       
+       
+        
+    }
+ 
+
+}
+const friedRice1=new friedRice("chicken","friedOil","basmathi");
+const briyani1=new briyani("mutton","bambOil","basmathi");
+
+console.log(friedRice1);
