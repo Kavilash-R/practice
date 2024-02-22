@@ -1,6 +1,7 @@
 *{
     padding: 0px;
     margin: 0px;
+    display:flex;
 }
 body{
     background-color: rgb(228, 154, 77);
