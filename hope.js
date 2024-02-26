@@ -1,11 +1,11 @@
 
-function nu(){
+function nub(){
     let msg="hello";
     function mu(){
         console.log(msg);
     }
     mu();
 }
-nu();
+nub();
 msg="bye";
 console.log(msg);
