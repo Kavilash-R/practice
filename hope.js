@@ -1,10 +1,10 @@
 
 function nub(){
     let msg="hello";
-    function mu(){
+    function mub(){
         console.log(msg);
     }
-    mu();
+    mub();
 }
 nub();
 msg="bye";
