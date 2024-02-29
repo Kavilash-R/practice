@@ -37,3 +37,4 @@ const friedRice1=new friedRice("chicken","friedOil","basmathi");
 const briyani1=new briyani("mutton","bambOil","basmathi");
 
 console.log(friedRice1);
+cosole.log();
