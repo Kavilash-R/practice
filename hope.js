@@ -7,5 +7,5 @@ function nub(){
     mub();
 }
 nub();
-msg="bye";
+msg="bye1";
 console.log(msg);
