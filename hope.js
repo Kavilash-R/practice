@@ -3,6 +3,7 @@ function nub(){
     let msg="hello";
     function mub(){
         console.log(msg);
+        console.log(ans);
     }
     mub();
 }
