@@ -26,6 +26,7 @@ class briyani extends food{
         super(rice);
         this.meat = meat;
         this.oil=oil;
+      console.log();
        
        
         
