@@ -4,7 +4,7 @@ function nub(){
     function mub(){
         console.log(msg);
         console.log(ans);
-        console.lolg("hello");
+        console.lolg("hello ");
     }
     mub();
 }
